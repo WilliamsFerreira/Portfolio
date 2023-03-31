@@ -113,7 +113,7 @@ section.title div.title-div div.title-container ul {
 }
 
 section.title img.profile {
-    width: 20%;
+    width: 200px;
 }
 
 .section-title {
@@ -125,18 +125,20 @@ section.title img.profile {
 
 .title a {
     width:40%;
-    padding: 15px 0;
+    padding: 10px;
+    background: #8b99e9;
+	color: white;
     font-weight: bold;
     font-size: 18px;
     border: none;
 	border-radius: 5px;
-    transition: 1s all;
+    transition: 0.5s all;
 	cursor: pointer;
 }
 
 .title a:hover {
-	background: #8b99e9;
-	transform: scale(1.2);
+	background: rgb(0, 195, 255);
+	transform: scale(1.5);
 }
 
 /*Sessão About*/
